@@ -1,0 +1,53 @@
+* {padding: 0; margin: 0}
+
+body {
+    padding: 15px;
+    background: #113144;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container {
+    width: 1000px;
+    height: auto;
+    margin: auto; 
+    background-color: cornflowerblue;
+
+}
+
+form {
+    padding: 15px;
+    background-color: blanchedalmond;
+    width: 800px;
+    margin: auto;
+    
+    
+
+    border: 2px solid red;
+    border-radius: 7px;
+}
+
+.itemForm {
+    background: rgb(169, 223, 192);
+    padding: 15px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.itemForm .form1 {
+    float: left; 
+    margin-right: 30px; 
+}
+
+.itemForm .form1 label{
+    display: block;
+    line-height: 25px;
+}
+
+
+
+footer{
+    padding: 15px;
+    text-align: center;
+    background-color:rgb(179, 127, 138) ;
+}

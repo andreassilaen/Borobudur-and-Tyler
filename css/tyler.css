@@ -1,128 +1,100 @@
 * {padding: 0; margin: 0}
 
 body {
-    background: #113144;
-    margin-top: 10px;
-}
-.container {
-    width: 1000px; 
-    margin: auto;
-    margin-top: 35px;
-    background-color: burlywood;
+    background: #5f142e;
+    margin-top: 25px;
 }
 
-/* ini css header */
 header {
-    height: 120px; 
-    background: burlywood;
-    overflow: hidden;
-    color: rgb(88, 2, 2);
-    font-size: 20px;
-    padding: 10px 0 10px 0;
-    font-family: script;
-    margin-bottom: 10px;
+    width: 900px; 
+    background: burlywood; 
+    padding: 25px; 
+    margin: auto;
+    text-align: center;
+    color: rgb(143, 41, 4);
 }
-
-header .kiri img {
-    width: 120px;
-    height: 120px;
-    margin: 10px 0px 10px 35px;
-    float: left;
-}
-
-header .kanan {
-    float: left;
-    margin: 10px 0 10px 30px;
-}
-
-header .kanan h1{ font-size: 40px;}
-header .kanan p {margin: 10px 0 5px 0;}
-
 
 menu {
-    height: 45px; 
-    background-color: rgb(97, 0, 0);
-    margin-bottom: 25px;
-    padding: 2px 0 2px 0;
+    width: 900px;
+    background: rgb(15, 75, 99);
+    margin:auto;
+    padding: 25px;
 }
 
-menu ul li {
-    list-style: none;
-    text-decoration: none;
-    color: rgb(141, 243, 167);
-    padding: 0px 25px;
-    float: left;
-    border-right: 2px solid burlywood;
-    line-height: 45px;
+menu a{
+    color: darkturquoise;
+    text-decoration: none;   
+    margin-right: 20px; 
 }
 
-menu li:hover {
-    background: burlywood;
-    color: black;
+menu a:hover {
+    color: orangered;
+    text-decoration:underline;
 }
-
-menu ul li a {text-decoration: none; color: rgb(141, 243, 167);}
-menu ul li a:hover {background: burlywood; color: red; font-size: 22px;}
 
 article {
+    width: 900px;
     background: burlywood;
-    overflow: hidden;
-    margin: 0;
+    padding: 25px;
+    padding-bottom: 0px;
+    margin: auto;
+    text-align: justify;
+}
+
+article img{
+    float: left;
+    width: 450px;
+    height: 300px;
+    margin: 0 25px 15px 0;
 }
 
 article h1 {
-    color: rgb(155, 13, 13);
-    margin-bottom: 10px;
-    font-size: 30px;
-    text-align: center;
+    margin-bottom: 15px;
+    color: rgb(87, 3, 126);
 }
 
-article p {text-align: justify; margin-bottom: 15px; color: black}
-
-article .kiri {width: 320px; float: left; margin-left: 20px;}
-article .kiri p {margin-left: 0px; font-size: 15px;}
-article .kiri .kiritengah { background: rgb(73, 2, 48); padding: 10px; margin-top: 40px; margin-bottom: 50px;}
-article .kiri .kiritengah h1 {color: rgb(255, 77, 77); font-size: 20px; margin-bottom: 20px;}
-article .kiri .kiritengah img {width: 45px; height: 45px; padding: 0 30px 0 5px;}
-article .kiri .kiritengah img:hover {width: 50px; height: 50px;}
-
-article .kanan {width: 630px; float: right;}
-article .kanan .atas img {width: 600px; height: 300px;}
-article .kanan .atas p {margin: 25px 25px 25px 0px; text-align: justify;}
-
-article .kanan .bawah {overflow: hidden; margin: 45px 0 45px 0;}
-article .kanan .bawah .kiribawah {width: 300px; float: left; border-left: 4px solid red;}
-article .kanan .bawah .kananbawah {width: 300px; float: right; border-left: 4px solid red;}
-article .kanan .bawah .kananbawah img {width: 45px; margin-left: 12px;}
-article .kanan .bawah h1,p {margin-left: 12px;}
-article .kanan .bawah p {font-size: 11px;}
-
-footer {margin: auto; margin-top: 25px; background: rgb(24, 24, 24); 
-color: rgb(51, 177, 166); text-align: center; padding: 25px;}
-footer a {color: rgb(51, 177, 166) }
-
-/* Tugas */
-article .kebawah {width: 960px; float: left; margin: 25px 20px 0 20px;}
-article .kebawah img {width: 120px; height: 120px; float: left; margin: 0 25px 2px 0px;}
-article .kebawah h1 {font-size: 20px;}
-article .kebawah p {font-size: 13px; margin-left: 0px;}
-article .kebawah .kotak1 {width: 280px; float:left;margin: 0 40px 0 0}
-
-article .kebawah .kotak2 {width: 280px; float:left;margin: 0 40px 0 0}
-article .kebawah .kotak3 {width: 280px; float:left;margin: 0 40px 0 0}
-article .kebawah .kotak4 {width: 280px; float:left;margin: 0 40px 0 0}
-
-header .kiri img {clip-path: circle(50%)}
-
-article .kanan .atas img {-webkit-mask-image: radial-gradient(circle 
-at 50% 43%, black 37%, rgba(0,0,0,0.4) 40%);}
-
-article .kiri .kirivideo iframe {width: 320px; height: 200px;}
-article .kiri .kirivideo h1 {font-size: 25px; text-align: center; 
-margin-bottom: 10px; color: rgb(29, 126, 0); text-decoration: underline;}
-
-
-iframe {
+article p {
+    margin-bottom: 25px;
+    color: black;
+}
+footer {
     width: 900px;
-    margin: 0 50px;
+    background: rgb(24, 24, 24);
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+footer p {
+    color: rgb(124, 207, 0);
+}
+
+article h2 {
+    width: 900px;
+    text-align: center;
+    font-size: 15mm;
+    color: rgb(221, 24, 60);
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+article h3 {
+    background: rgb(221, 24, 60);
+    color: rgb(255, 229, 195);
+    width: 700px;
+    font-size:4mm;
+    text-align: center;
+    margin: auto;
+    padding: 40px 40px;  
+}
+
+article h4 {    
+    color: whitesmoke;
+    background: rgb(7, 155, 147);
+    text-align: center;
+    width: 900px;
+    margin: 100px 0 0 -25px;
+    padding: 10px 25px;
+    
 }
